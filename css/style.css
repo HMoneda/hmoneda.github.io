@@ -61,6 +61,8 @@ h2 {
 /* NAVIGATION */
 /* ---------------------------------------- */
 .navigation {
+  /* position: fixed; */
+  width: 100%;
   background-color: white;
 }
 
@@ -75,13 +77,45 @@ h2 {
   cursor: pointer;
 }
 
-.navigation svg:hover {
+/* .navigation svg:hover {
   color: #f6f6f6;
   background-color: black;
   border-radius: 10px;
+} */
+
+#mobile-nav {
+  /* height: 100vh; */
+  display: none;
+  width: 100%;
+  position: fixed;
+  top: 85px;
+  left: 0;
+  font-size: 1.6rem;
+  background-color: white;
+  transition: 0.3s ease;
 }
 
-.navigation nav {
+#mobile-nav ul {
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+  padding: 0;
+}
+
+#mobile-nav li {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+#mobile-nav li:hover {
+  font-weight: bold;
+}
+
+.mobile-nav-active {
+  display: block !important;
+}
+
+.desktop-nav {
   display: none;
 }
 
@@ -94,7 +128,11 @@ h2 {
     display: none;
   }
 
-  .navigation nav {
+  #mobile-nav {
+    display: none !important;
+  }
+
+  .desktop-nav {
     display: flex;
     align-items: center;
   }
@@ -118,7 +156,7 @@ h2 {
 @media screen and (min-width: 1024px) {
   .navigation-container {
     width: 100%;
-    max-width: 768px;
+    max-width: 900px;
     margin: auto;
   }
 }
@@ -169,5 +207,22 @@ h2 {
 /* ---------------------------------------- */
 footer {
   text-align: center;
+  font-size: 1.4rem;
   margin: 20px 0;
+}
+
+footer p {
+  margin: 5px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 25px;
+  margin: 0 5px;
+  cursor: pointer;
 }
