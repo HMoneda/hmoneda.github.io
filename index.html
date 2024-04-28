@@ -10,24 +10,22 @@
   <body class="home">
     <!-- Navigation -->
     <header class="navigation">
-      <div class="navigation-container">
-        <div>
+      <nav class="navbar">
+        <div class="nav-header">
           <h1>Heinze Kristian Moneda</h1>
           <h2>Software Engineer</h2>
         </div>
-        <nav id="mobile-nav">
-          <ul>
-            <li>Resume</li>
-            <li>Projects</li>
-          </ul>
-        </nav>
+        <ul class="nav-menu">
+          <li class="nav-link">Resume</li>
+          <li class="nav-link">Projects</li>
+        </ul>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          id="mobile-nav-menu"
+          id="hamburger-icon"
         >
           <path
             stroke-linecap="round"
@@ -35,42 +33,41 @@
             d="M3.75 9h16.5m-16.5 6.75h16.5"
           />
         </svg>
-
-        <nav class="desktop-nav">
-          <ul>
-            <li>Resume</li>
-            <li>Projects</li>
-          </ul>
-        </nav>
-      </div>
+      </nav>
     </header>
+    <!-- Content -->
     <main class="home-container">
       <div>
-        <img src="img/my_pic_square.jpg" alt="my_pic_square" />
-      </div>
-      <div>
-        <h1>Hello There!</h1>
-        <h2>
-          Welcome to my website. I’m currently a frontend software engineer,
-          currently learning Angular.
-        </h2>
-      </div>
-      <div>
-        <a class="btn">See More</a>
+        <div>
+          <img src="img/my_pic_square.jpg" alt="my_pic_square" />
+        </div>
+        <div>
+          <h1>Hello There!</h1>
+          <h2>
+            Welcome to my website. I’m currently a frontend software engineer,
+            currently learning Angular.
+          </h2>
+        </div>
+        <div>
+          <a class="btn">See More</a>
+        </div>
       </div>
     </main>
+    <!-- Footer -->
     <footer>
-      <p>© 2024 by Heinze Kristian Moneda</p>
-      <div class="icon-container">
-        <a href="mailto:heinze.moneda@gmail.com"
-          ><img class="icon" src="img/envelope-solid.svg" alt=""
-        /></a>
-        <a href="https://www.linkedin.com/in/heinze-moneda/" target="_blank"
-          ><img class="icon" src="img/linkedin.svg" alt=""
-        /></a>
-        <a href="https://github.com/HMoneda" target="_blank"
-          ><img class="icon" src="img/square-github.svg" alt=""
-        /></a>
+      <div>
+        <p>© 2024 by Heinze Kristian Moneda</p>
+        <div class="icon-container">
+          <a href="mailto:heinze.moneda@gmail.com"
+            ><img class="icon" src="img/envelope-solid.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/heinze-moneda/" target="_blank"
+            ><img class="icon" src="img/linkedin.svg" alt=""
+          /></a>
+          <a href="https://github.com/HMoneda" target="_blank"
+            ><img class="icon" src="img/square-github.svg" alt=""
+          /></a>
+        </div>
       </div>
     </footer>
   </body>
