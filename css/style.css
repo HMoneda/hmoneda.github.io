@@ -41,6 +41,11 @@ h2 {
   font-size: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .btn {
   font-size: 1.5rem;
   font-weight: bold;
@@ -104,7 +109,7 @@ h2 {
   margin: 15px 20px;
 }
 
-.nav-link:hover {
+.nav-link a:hover {
   font-weight: bold;
 }
 
