@@ -186,6 +186,26 @@ a {
 
 /* RESUME */
 /* ---------------------------------------- */
+.resume-container {
+  flex: 1;
+  margin: 0 20px;
+  margin-top: 85px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+section span {
+  display: block;
+  border-top: solid 1px black;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+}
 
 /* PROJECTS */
 /* ---------------------------------------- */
