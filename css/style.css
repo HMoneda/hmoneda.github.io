@@ -41,9 +41,19 @@ h2 {
   font-size: 1.5rem;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 100%;
+  border: black solid 2px;
 }
 
 .btn {
@@ -133,7 +143,9 @@ a {
 
 @media screen and (min-width: 1024px) {
   .navbar {
-    max-width: 900px;
+    max-width: 800px;
+    padding-left: 0;
+    padding-right: 0;
     margin: auto;
   }
 }
@@ -161,12 +173,6 @@ a {
   font-weight: bold;
 }
 
-.home-container img {
-  width: 200px;
-  border-radius: 100%;
-  border: black solid 2px;
-}
-
 .home-container div {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -190,21 +196,105 @@ a {
   flex: 1;
   margin: 0 20px;
   margin-top: 85px;
-  padding-top: 10px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
+}
+
+.resume-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.resume-profile-icon {
+  text-align: center;
+}
+
+.resume-profile div {
+  margin-bottom: 5px;
+}
+
+.resume-profile h1 {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.resume-header h1 {
+  font-weight: bold;
 }
 
 section span {
   display: block;
   border-top: solid 1px black;
-  margin: 5px 0;
+  margin: 10px 0;
   width: 100%;
 }
 
 .resume-section {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.resume-section h2 {
+  font-weight: bold;
+}
+
+.resume-content-item {
+  margin-bottom: 10px;
+}
+
+.resume-profile-skills ul {
+  /* text-decoration: none; */
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-profile-skills h2 {
+  /* text-decoration: none; */
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.resume-profile-skills ul li {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.resume-content-item-extra {
+  margin-top: 10px;
+  font-size: 1.15rem;
+}
+
+@media screen and (min-width: 768px) {
+  .resume-container {
+    flex-direction: row;
+  }
+
+  .resume-profile {
+    max-width: 250px;
+    margin-right: 15px;
+  }
+
+  .resume-profile h1 {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .resume-container {
+    margin: 0 auto;
+    margin-top: 85px;
+    max-width: 800px;
+  }
 }
 
 /* PROJECTS */
