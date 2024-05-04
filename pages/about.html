@@ -4,171 +4,281 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heinze Kristian P. Moneda | About Me</title>
+    <title>Resume | Heinze Kristian P. Moneda</title>
     <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body>
+  <body class="home">
     <!-- Header -->
-    <header>
-      <nav id="navbar">
-        <!-- Left Side -->
-        <div>
-          <a class="title" href="../index.html"
-            >Heinze Kristian P. Moneda
-            <span class="block subtitle">Computer Science Student</span>
+    <header class="navigation">
+      <nav class="navbar">
+        <div class="nav-header">
+          <a href="../index.html">
+            <h1>Heinze Kristian Moneda</h1>
+            <h2>Software Engineer</h2>
           </a>
         </div>
-        <!-- Right Side -->
-        <div>
-          <a class="right-navigation" href="about.html">About Me</a>
-          <a class="right-navigation" href="projects.html">Projects</a>
-        </div>
+        <ul class="nav-menu">
+          <li class="nav-link"><a href="about.html">Resume</a></li>
+          <li class="nav-link"><a href="projects.html">Projects</a></li>
+        </ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          id="hamburger-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 9h16.5m-16.5 6.75h16.5"
+          />
+        </svg>
       </nav>
     </header>
     <!-- Content -->
-    <div id="container">
-      <div id="cont-wrapper">
-        <div id="sidebar">
-          <img src="../img/my_pic_square.jpg" class="my-image-side" />
-          <p id="sidebar-name">Heinze Kristian Moneda</p>
-          <div class="sidebar-content">
-            <i class="fas fa-envelope-square fa-lg sidebar-icon"></i>
-            <a class="sidebar-text" href="mailto:heinze_moneda@dlsu.edu.ph"
-              >Email</a
-            >
-          </div>
-          <div class="sidebar-content">
-            <i class="fab fa-github-square fa-lg sidebar-icon"></i>
-            <a class="sidebar-text" href="https://github.com/HMoneda">Github</a>
-          </div>
-          <div class="sidebar-content">
-            <i class="fab fa-linkedin fa-lg sidebar-icon"></i>
-            <a
-              class="sidebar-text"
-              href="https://www.linkedin.com/in/heinze-moneda"
-              >LinkedIn</a
-            >
+    <main class="resume-container">
+      <!-- Profile -->
+      <section class="resume-profile">
+        <div class="resume-profile-icon">
+          <img
+            class="profile-img"
+            src="../img/my_pic_square.jpg"
+            alt="my_pic_square"
+          />
+          <h1>Heinze Kristian Moneda</h1>
+        </div>
+        <div>
+          <p>
+            Motivated and passion driven software engineer. I love solving
+            problems by being proactive and accountable using modern technology.
+            I'am experienced in using different frontend frameworks primarily
+            Angular. I'm also knowledgeable in using backend technologies such
+            as express.js and spring boot. My goal is to improve everyday and
+            gain knowledge as a software engineer.
+          </p>
+        </div>
+        <div class="resume-profile-skills">
+          <h2>Skills</h2>
+          <div>
+            <ul>
+              <li><p>Angular</p></li>
+              <li><p>Node.js</p></li>
+              <li><p>HTML</p></li>
+              <li><p>CSS</p></li>
+              <li><p>JavaScript</p></li>
+              <li><p>TypeScript</p></li>
+              <li><p>React</p></li>
+              <li><p>Vue</p></li>
+              <li><p>Express.js</p></li>
+              <li><p>Java</p></li>
+              <li><p>Spring Boot</p></li>
+              <li><p>Python</p></li>
+              <li><p>Pandas</p></li>
+              <li><p>Kotlin</p></li>
+              <li><p>MongoDB</p></li>
+              <li><p>MySQL</p></li>
+              <li><p>PostgreSQL</p></li>
+              <li><p>New Relic</p></li>
+            </ul>
           </div>
         </div>
-        <div id="content">
-          <h2 id="cont-header">Curriculum Vitae</h2>
-          <div id="main-contents">
-            <div class="flex">
-              <div class="col-1"></div>
-              <div class="col-2 col-cont-header">Education</div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2019 - Present</div>
-              <div class="col-2">
-                <p class="col-cont-emp">
-                  Bachelor of Science in Computer Science Major in Software
-                  Technology
-                </p>
-                <p>De La Salle University</p>
+      </section>
+      <div>
+        <!-- Work Experience-->
+        <section class="resume-section">
+          <div class="resume-header">
+            <h1>Work Experience</h1>
+            <span></span>
+          </div>
+          <div class="resume-content-list">
+            <div class="resume-content-item">
+              <h2>Associate Front-end Software Engineer</h2>
+              <p>
+                Manulife IT Delivery Center Asia Inc. - Makati City, Philippines
+              </p>
+              <p>Dec 2023 - Present</p>
+              <div class="resume-content-item-extra">
+                <ul>
+                  <li>
+                    Frontend software engineer responsible for frontend bugfixes
+                  </li>
+                  <li>
+                    Handles problem records and identifies it's root cause
+                  </li>
+                  <li>
+                    Handles incidents, performs and creates workarounds for
+                    incidents.
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="flex col-cont">
-              <div class="col-1">2017 - 2019</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Senior High School</p>
-                <p>Mapúa University</p>
+            <div class="resume-content-item">
+              <div>
+                <h2>Software Engineer Intern</h2>
+              </div>
+              <p>
+                Manulife IT Delivery Center Asia Inc. - Makati City, Philippines
+              </p>
+              <p>Sept 2023 - Dec 2023</p>
+            </div>
+            <div class="resume-content-item-extra">
+              <ul>
+                <li>
+                  Handles incidents, performs and creates workarounds for
+                  incidents.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Education -->
+        <section class="resume-section">
+          <div class="resume-header">
+            <h1>Education</h1>
+            <span></span>
+          </div>
+          <div class="resume-content-list">
+            <div class="resume-content-item">
+              <h2>
+                Bachelor of Science in Computer Science with Specialization in
+                Software Technology Minor in Data Science
+              </h2>
+              <p>De La Salle University - Manila, Philippines</p>
+              <p>Sept 2019 - Dec 2023</p>
+              <div class="resume-content-item-extra">
+                <ul>
+                  <li>Magna Cum Laude</li>
+                  <li>3.711 CGPA</li>
+                </ul>
               </div>
             </div>
-            <div class="flex col-cont">
-              <div class="col-1">2013 - 2017</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Junior High School</p>
-                <p>San Sebastian College Recoletos -Manila</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1"></div>
-              <div class="col-2 col-cont-header">
-                Educational/Professional Organizations
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2022 - Present</div>
-              <div class="col-2">
-                <p class="col-cont-emp">
-                  Associate Vice President for Research and Development
-                </p>
-                <p>La Salle Computer Society</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2021 - 2022</div>
-              <div class="col-2">
-                <p class="col-cont-emp">
-                  Vice President for Research and Development
-                </p>
-                <p>La Salle Computer Society</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2020 - 2021</div>
-              <div class="col-2">
-                <p class="col-cont-emp">
-                  Associate Vice President for Research and Development
-                </p>
-                <p>La Salle Computer Society</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2020 – 2021</div>
-              <div class="col-2">
-                <p class="col-cont-emp">
-                  Associate Vice President for Activities
-                </p>
-                <p>Peer Tutor Society</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2020 – 2021</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Member</p>
-                <p>Developer Student Clubs - Taft</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2019 – 2020</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Junior Officer</p>
-                <p>La Salle Computer Society</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2019 – 2020</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Secretariat Committee</p>
-                <p>Microsoft Student Community</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2019 – 2021</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Tutor</p>
-                <p>Peer Tutors Society</p>
-              </div>
-            </div>
-            <div class="flex col-cont">
-              <div class="col-1">2018 – 2019</div>
-              <div class="col-2">
-                <p class="col-cont-emp">Internal Vice President</p>
-                <p>Mapúa University SHS ICT Club</p>
+            <div class="resume-content-item">
+              <h2>
+                Senior High School (Science, Technology, Engineering, and
+                Mathematics)
+              </h2>
+              <p>Mapúa University - Manila, Philippines</p>
+              <p>Aug 2017 - Dec 2019</p>
+              <div class="resume-content-item-extra">
+                <ul>
+                  <li>Graduated With Honors</li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <!-- Educational/Professional Organizations -->
+        <section class="resume-section">
+          <div class="resume-header">
+            <h1>Educational/Professional Organizations</h1>
+            <span></span>
+          </div>
+          <div class="resume-content-list">
+            <div class="resume-content-item">
+              <h2>Associate Vice President for Research and Development</h2>
+              <p>La Salle Computer Society - Manila, Philippines</p>
+              <p>2022 - 2023</p>
+              <div class="resume-content-item-extra">
+                <ul>
+                  <li>
+                    Part of the team the training team which helps in equipping
+                    officers the knowledge needed for web development.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="resume-content-item">
+              <h2>Vice President for Research and Development</h2>
+              <p>La Salle Computer Society - Manila, Philippines</p>
+              <p>2021 - 2022</p>
+              <div class="resume-content-item-extra">
+                <ul>
+                  <li>
+                    Spearheaded the creation of different web applications used
+                    in the organization's flagship events
+                  </li>
+                  <li>
+                    Launched different workshops and seminars for web
+                    development
+                  </li>
+                  <li>Trained new officers basic web development knowledge</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="resume-content-item">
+            <h2>Associate Vice President for Research and Development</h2>
+            <p>La Salle Computer Society - Manila, Philippines</p>
+            <p>2020 - 2021</p>
+            <div class="resume-content-item-extra">
+              <ul>
+                <li>
+                  Part of the development team of the DLSU COMELEC Voting
+                  Website
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="resume-content-item">
+            <h2>Member</h2>
+            <p>Developer Student Clubs Taft - Manila, Philippines</p>
+            <p>2020 - 2023</p>
+          </div>
+          <div class="resume-content-item">
+            <h2>Member</h2>
+            <p>DLSU Microsoft Student Community - Manila, Philippines</p>
+            <p>2019 - 2020</p>
+          </div>
+        </section>
+        <!-- Publications -->
+        <section class="resume-section">
+          <div class="resume-header">
+            <h1>Publications</h1>
+            <span></span>
+          </div>
+          <div class="resume-content-list">
+            <div class="resume-content-item">
+              <h2>
+                Balancing Privacy Preservation and Utility in Anti-Face
+                Detection Systems
+              </h2>
+              <p>IEEE - TENCON 2022 - Hong Kong</p>
+              <p>Dec 2022</p>
+              <div class="resume-content-item-extra">
+                A conference paper which discusses a use of a model to predict
+                the minimum amount of perturbation needed for an facial image to
+                be not detected by exisiting face detection systems.
+              </div>
+              <a
+                class="resume-content-btn"
+                href="https://ieeexplore.ieee.org/document/9977834"
+                target="_blank"
+                >IEEE</a
+              >
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+    </main>
     <!-- footer -->
     <footer>
-      <p>&#169; 2022 Heinze Kristian Moneda</p>
+      <div>
+        <p>© 2024 by Heinze Kristian Moneda</p>
+        <div class="icon-container">
+          <a href="mailto:heinze.moneda@gmail.com"
+            ><img class="icon" src="../img/envelope-solid.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/heinze-moneda/" target="_blank"
+            ><img class="icon" src="../img/linkedin.svg" alt=""
+          /></a>
+          <a href="https://github.com/HMoneda" target="_blank"
+            ><img class="icon" src="../img/square-github.svg" alt=""
+          /></a>
+        </div>
+      </div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/d013f8194c.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
+  <script src="../js/script.js"></script>
 </html>

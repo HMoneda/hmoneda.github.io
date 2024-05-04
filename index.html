@@ -4,48 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heinze Kristian P. Moneda | Home</title>
+    <title>Heinze Kristian P. Moneda</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <nav id="navbar">
-        <!-- Left Side -->
-        <div>
-          <a class="title" href="index.html"
-            >Heinze Kristian P. Moneda
-            <span class="block subtitle">Computer Science Student</span>
-          </a>
+  <body class="home">
+    <!-- Navigation -->
+    <header class="navigation">
+      <nav class="navbar">
+        <div class="nav-header">
+          <h1>Heinze Kristian Moneda</h1>
+          <h2>Software Engineer</h2>
         </div>
-        <!-- Right Side -->
-        <div>
-          <a class="right-navigation" href="./pages/about.html">About Me</a>
-          <a class="right-navigation" href="./pages/projects.html">Projects</a>
-        </div>
+        <ul class="nav-menu">
+          <li class="nav-link"><a href="./pages/about.html">Resume</a></li>
+          <li class="nav-link"><a href="./pages/projects.html">Projects</a></li>
+        </ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          id="hamburger-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 9h16.5m-16.5 6.75h16.5"
+          />
+        </svg>
       </nav>
     </header>
     <!-- Content -->
-    <div id="container">
-      <!-- Picture -->
-      <div class="picture">
-        <img src="img/my_pic_square.jpg" class="my-image" />
+    <main class="home-container">
+      <div>
+        <div>
+          <img
+            class="profile-img"
+            src="img/my_pic_square.jpg"
+            alt="my_pic_square"
+          />
+        </div>
+        <div>
+          <h1>Hello There!</h1>
+          <h2>
+            Welcome to my website. I’m currently a frontend software engineer,
+            currently learning Angular.
+          </h2>
+        </div>
+        <div>
+          <a href="./pages/about.html" class="btn">See More</a>
+        </div>
       </div>
-      <!-- Text -->
-      <div class="text-content center-text">
-        <h2>Hello There!</h2>
-        <p id="introduction">
-          I'm currently a student at De La Salle University taking my Bachelor's
-          degree in Computer Science Major in Software Technology.
-        </p>
-      </div>
-      <!-- Button -->
-      <div class="center-text padding-32px">
-        <a class="btn" href="./pages/about.html">More</a>
-      </div>
-    </div>
+    </main>
+    <!-- Footer -->
     <footer>
-      <p>&#169; 2022 Heinze Kristian Moneda</p>
+      <div>
+        <p>© 2024 by Heinze Kristian Moneda</p>
+        <div class="icon-container">
+          <a href="mailto:heinze.moneda@gmail.com"
+            ><img class="icon" src="img/envelope-solid.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/heinze-moneda/" target="_blank"
+            ><img class="icon" src="img/linkedin.svg" alt=""
+          /></a>
+          <a href="https://github.com/HMoneda" target="_blank"
+            ><img class="icon" src="img/square-github.svg" alt=""
+          /></a>
+        </div>
+      </div>
     </footer>
   </body>
+  <script src="js/script.js"></script>
 </html>
