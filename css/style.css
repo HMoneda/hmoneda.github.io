@@ -116,7 +116,7 @@ a {
   list-style: none;
   text-decoration: none;
   font-size: 1.5rem;
-  margin: 15px 20px;
+  padding: 15px 20px;
 }
 
 .nav-link a:hover {
